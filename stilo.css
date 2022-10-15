@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+html {
+    font-size: 62.5%;
+} 
+body {
+    font-size: 16px;
+    background-color: rgb(245, 241, 238);
+    font-family: Comforter Brush;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+h2, h3 {
+     text-align: center;
+     color: blue;
+     text-align: center;
+}
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(23, 42, 214);
+}
+.servicios {
+    display: flex;
+}
+
+.formulario {
+    background-color: rgb(132, 209, 240);
+    width: min(60rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+
+}
+
+.formulario legend {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.contenedor-campo {
+    
+}
+
+.campo {
+    margin-bottom: 1rem;
+}
+
+.campo label{ 
+    color: rgb(18, 33, 236);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+.campo input {
+    width: 100%;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.campo textarea {
+    height: 10rem;
+    width: 30rem;
+
+}
+
+

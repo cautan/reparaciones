@@ -1,0 +1,29 @@
+.navegacion-principal {
+    background-color: rgb(200, 190, 200);
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 2rem;
+
+}
+
+.contenedor {
+    width: 100rem;
+    margin-top: 0px; 
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+.navegacion-principal a {
+    color:rgb(163, 21, 25);
+    font: 400;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.navegacion-principal a:hover {
+    background-color: rgb(104, 65, 104);
+    color: black;
+    border-radius: .5rem;
+
+}
